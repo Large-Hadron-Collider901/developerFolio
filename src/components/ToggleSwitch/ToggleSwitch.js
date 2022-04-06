@@ -9,7 +9,14 @@ const ToggleSwitch = () => {
 
   return (
     <label className="switch">
-
+      <input
+        type="checkbox"
+        checked={isDark}
+        onChange={() => {
+          styleContext.changeTheme();
+          setChecked(!isChecked);
+        }}
+      />
       <span className="slider round"></span>
     </label>
   );

@@ -240,14 +240,14 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Certifications 🏆 "),
   subtitle: " ",
 
   achievementsCards: [
     {
-      title: "Microsoft Technology Associate: Introduction to Programming Using JavaScript - Certified 2021",
+      title: "Microsoft Technology Associate: Introduction to Programming Using JavaScript Certification",
       subtitle:
-      " ",
+      "Exceeded required passing score of 80% on Microsoft 98-382 exam",
       image: require("./assets/images/MTA-Badge.png"),
       footerLink: [
  
