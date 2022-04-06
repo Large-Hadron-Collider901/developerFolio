@@ -1,9 +1,14 @@
 @import "./globalColor";
-
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+html{
+  overflow-x: hidden;
+  margin-left: 20px;
+}
 .App {
   text-align: center;
   width: 100%;
   overflow-x: hidden;
+ 
 }
 
 .App-logo {

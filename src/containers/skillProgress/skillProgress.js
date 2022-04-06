@@ -33,7 +33,8 @@ export default function StackProgress() {
             ) : (
               <img
                 alt="Skills"
-                src={require("../../assets/images/skill.svg")}
+                src="https://i.ibb.co/8PKKQwX/cyborg-117.png"
+                id="brain"
               />
             )}
           </div>

@@ -9,6 +9,10 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  height: 200px;
+  border-radius: 7px;
+  
+  border: 8px solid rgb(213, 19, 116);
 }
 .repo-card-div:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -80,6 +84,7 @@
 .dark-card-mode {
   background-color: $darkBackground;
   color: $textColorDark;
+  
 }
 .dark-card-mode p {
   color: $textColorDark;

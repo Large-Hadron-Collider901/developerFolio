@@ -17,6 +17,7 @@ import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import Form from "../components/Form";
 import "./Main.scss";
 
 const Main = () => {
@@ -33,17 +34,16 @@ const Main = () => {
         <Header />
         <Greeting />
         <Skills />
-        <StackProgress />
         <Education />
         <WorkExperience />
         <Projects />
-        <StartupProject />
         <Achievement />
         <Blogs />
         <Talks />
         <Twitter />
         <Podcast />
         <Profile />
+        <Form />
         <Footer />
         <Top />
       </StyleProvider>

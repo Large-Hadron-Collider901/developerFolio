@@ -16,17 +16,21 @@ export default function Greeting() {
     return null;
   }
   return (
+
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
+              <section id="lotus-div">
+            
+    </section>
+            <section id="border">
+              <h1 id="mainGreeting">
+              
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+           
               </h1>
               <p
                 className={
@@ -47,17 +51,28 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
+              
               </div>
+              </section>
             </div>
+            
           </div>
+          
           <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
+              <div id="sun-shadow">
+
+<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-1"/>
+<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-2"/>
+<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-3"/>
+<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-4"/>
+<img src="https://i.ibb.co/P5Dzys2/aaron-burden-6-DD9-FJYj0-Vo-unsplash.jpg" alt="aaron-burden-6-DD9-FJYj0-Vo-unsplash" className="marble"/>
+<img src="https://i.ibb.co/RTsQkMQ/29.png" alt="29" id="sun"/>
+<img src="https://i.ibb.co/nrm03pd/pexels-karolina-grabowska-4040593.jpg" alt="pexels-karolina-grabowska-4040593" className="crystal"/>
+      </div>
+              
             )}
           </div>
         </div>

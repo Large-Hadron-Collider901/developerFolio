@@ -8,6 +8,12 @@
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
+#brain {
+
+position: absolute;
+top: 80px;
+  width: 550px;
+}
 .meter > span {
   display: block;
   height: 100%;
@@ -29,9 +35,11 @@
 .skills-container {
   display: flex;
   width: 90%;
-  padding: 20px 10px;
+  padding: 90px 80px 180px 50px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: -1rem;
+border: solid 9px purple;
+
 }
 .skills-container > * {
   flex: 1;

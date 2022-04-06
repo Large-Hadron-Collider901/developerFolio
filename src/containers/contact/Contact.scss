@@ -1,9 +1,21 @@
 @import "../../_globalColor";
-
+#contact {
+  width: 90.75%;
+  padding: 65px 65px 25px 65px;
+  margin: 0px auto;
+  border: blue 3px solid;
+  border-radius: 7px;
+  margin-top: 2rem;
+margin-bottom: -20px
+}
 .contact-div-main {
   display: flex;
+  
 }
-
+.container {
+  position: absolute;
+  bottom: 0
+}
 .dark-mode a {
   color: $textColorDark;
 }

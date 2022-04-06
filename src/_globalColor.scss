@@ -9,9 +9,9 @@ $topButtonHover: #000;
 
 // text colors light theme
 $titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
+$textColor: #030303;
+$subTitle: #210098;
+$cardSubtitle: #000000;
 $talkCardSubTitle: #7f8287;
 $blogCardTitleColor: #262626;
 
@@ -23,28 +23,28 @@ $toggleCheck: #2196f3;
 $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
+$githubRepoCardLanguageColorBG: #ffffff;
+$githubRepoCardColor: rgb(255, 255, 255);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
+$githubRepoCardRepoNameColor: rgb(0, 87, 175);
 $githubProfileCardLocationTS: #ffebcd;
 $githubProfileCardBorder: #6c63ff;
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
+$lightBackground1: rgb(9, 9, 106);
+$lightBackground2: rgb(113, 183, 194);
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
 // dark background colors
 $darkBackground: #171c28;
-
+$darkHeader: black;
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);
 $lightBoxShadow: rgba(0, 0, 0, 0.1);
 $lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
 
 // dark theme box shadows
-$darkBoxShadow: #d9dbdf;
+$darkBoxShadow: #1c0083;
 $darkBoxShadow2: #ffffff;
 
 // linear gradients
@@ -59,8 +59,8 @@ $experienceCardBannerLG: linear-gradient(
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$lightBorder1: rgb(255, 255, 255);
+$educationCardBorder: #fdfdff;
 
 // hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);

@@ -1,0 +1,91 @@
+
+#Form > *,
+::before,
+::after {
+  /* selecting all elements on the page, along with the ::before
+     and ::after pseudo-elements; resetting their margin and
+     padding to zero and forcing all elements to calculate their
+     box-sizing the same way, 'border-box' includes the border-widths,
+     and padding, in the stated width: */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+textarea[name=message] {
+position: absolute;
+bottom:-240px;
+height: 100px;
+right: 198px;
+    width: 389px;
+}
+form {
+    position: absolute;
+    top: 3670px;
+  /* Using CSS Grid to lay out the elements in two-dimensions: */
+  display: grid;
+  /* specifying a 0.5em gutter/gap between adjacent elements: */
+  gap: 0.5em;
+  /* declaring a number of named grid areas in order to lay out
+     the child elements; the areas identified with a period (.)
+     are 'empty' areas, whereas the areas named by strings are
+     used, later, to place elements according to those names: */
+  grid-template-areas:
+    "usernameLabel . usernameInput"
+    "passwordLabel . passwordInput"
+    ". . submit";
+  /* declaring the size of each of the three columns; 1fr is
+     one fractional unit of the available space, and is the
+     size of the first and last of the columns. The central
+     column is declared as being 0.5em in width: */
+  grid-template-columns: 1fr 0.5em 1fr;
+  margin: 1em auto;
+  width: 80%;
+  height: 50px;
+
+}
+
+#label {
+  /* placing all <label> elements in the grid column 1 (the first): */
+  grid-column: 1;
+  /* aligning text-content to the right in order to position the label
+     text near to the relevant <input>: */
+  text-align: right;
+
+}
+
+#label::after {
+  content: ':';
+}
+
+input, textarea {
+  grid-column: 3;
+  
+  margin-left: -170px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#button {
+    position: absolute;
+    top:170px;
+    right: -12px;
+  /* positioning the <button> element in the grid-area identified
+     by the name of 'submit': */
+  grid-area: submit;
+  width: 797px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 60px 10px;
+  font-size:30px;
+
+}
+
+
+  input {
+  padding: 5px 5px 5px 5px;
+
+    font-size: 30px;
+    height: 40px;
+    border: 1px solid grey;
+  }

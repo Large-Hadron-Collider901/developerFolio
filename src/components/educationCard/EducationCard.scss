@@ -43,10 +43,14 @@
 .education-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 10rem;
+  height: 10rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+     
+
+  background-color: white;
+  border: solid red 2px;
 }
 
 .education-card-right {
@@ -103,10 +107,10 @@
     font-size: 16px;
   }
   .education-roundedimg {
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0px;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+ 
   }
 }
 
@@ -121,11 +125,11 @@
     width: 100%;
   }
   .education-roundedimg {
-    margin-top: 10px;
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 1rem;
-    margin-right: 0;
+
+   
+
+    background-color: white;
+
   }
   .education-text-bullets > ul {
     max-width: 80%;

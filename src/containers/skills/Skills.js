@@ -13,6 +13,9 @@ export default function Skills() {
     return null;
   }
   return (
+    <>
+   
+    
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
         <Fade left duration={1000}>
@@ -22,7 +25,7 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+               src="https://i.ibb.co/jrXJ5Pv/computer.png"
               ></img>
             )}
           </div>
@@ -64,5 +67,6 @@ export default function Skills() {
         </Fade>
       </div>
     </div>
+    </>
   );
 }

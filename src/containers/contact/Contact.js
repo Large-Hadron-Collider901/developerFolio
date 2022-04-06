@@ -64,6 +64,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </Fade>
+          </Fade>
   );
 }

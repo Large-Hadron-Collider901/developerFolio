@@ -1,14 +1,15 @@
 @import "../../_globalColor";
-
-/*React-headroom*/
-.headroom-wrapper {
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');/*React-headroom*/
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap');.headroom-wrapper {
   max-height: 100px;
 }
 
 /* header */
 
 .dark-menu {
-  background-color: $darkBackground !important;
+  background-color: $darkHeader !important;
   color: $textColorDark;
 }
 
@@ -41,7 +42,7 @@
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: $textColor;
+  color: white;
   text-decoration: none;
 }
 
@@ -49,23 +50,25 @@
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
 }
-
+.menu {
+  width: 42%;
+}
 .header .logo {
-  display: block;
+  
   flex: none;
   float: left;
-  font-size: 1.5em;
+
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+-webkit-text-stroke: .5px aqua;
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 30px;
   padding: 0 10px;
+  color: white;
 }
 
 /* menu */
