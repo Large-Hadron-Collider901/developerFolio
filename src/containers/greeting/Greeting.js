@@ -16,7 +16,8 @@ export default function Greeting() {
     return null;
   }
   return (
-
+    <>
+    <div id="greetingPage"></div>
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
@@ -41,7 +42,9 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <div id="social-media">
               <SocialMedia />
+              </div>
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
@@ -63,13 +66,11 @@ export default function Greeting() {
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <div id="sun-shadow">
+<div class="lotus-div">
 
-<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-1"/>
-<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-2"/>
-<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-3"/>
-<img src="https://i.ibb.co/bBGhjmQ/lotus.png" alt="lotus" id="lotus-4"/>
+</div>
 <img src="https://i.ibb.co/P5Dzys2/aaron-burden-6-DD9-FJYj0-Vo-unsplash.jpg" alt="aaron-burden-6-DD9-FJYj0-Vo-unsplash" className="marble"/>
-<img src="https://i.ibb.co/RTsQkMQ/29.png" alt="29" id="sun"/>
+<img src="https://i.ibb.co/VJdLY3J/HAND-MYSTICAL1.png" alt="HAND-MYSTICAL1" id="sun"/>
 <img src="https://i.ibb.co/nrm03pd/pexels-karolina-grabowska-4040593.jpg" alt="pexels-karolina-grabowska-4040593" className="crystal"/>
       </div>
               
@@ -78,5 +79,6 @@ export default function Greeting() {
         </div>
       </div>
     </Fade>
+    </>
   );
 }

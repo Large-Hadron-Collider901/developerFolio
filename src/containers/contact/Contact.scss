@@ -1,20 +1,25 @@
 @import "../../_globalColor";
 #contact {
   width: 90.75%;
-  padding: 65px 65px 25px 65px;
+  height: 200%;
+  padding: 65px 65px 75px 65px;
   margin: 0px auto;
   border: blue 3px solid;
   border-radius: 7px;
   margin-top: 2rem;
-margin-bottom: -20px
+margin-bottom: -20px;
+z-index: 1000;
 }
+
+
 .contact-div-main {
   display: flex;
-  
+  z-index: 1000;
 }
 .container {
   position: absolute;
-  bottom: 0
+  bottom: 0;
+  z-index: 1000;
 }
 .dark-mode a {
   color: $textColorDark;
@@ -36,6 +41,7 @@ margin-bottom: -20px
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
+  z-index: 1000;
 }
 
 .contact-detail:hover,
@@ -47,10 +53,12 @@ margin-bottom: -20px
 
 .contact-subtitle {
   text-transform: uppercase;
+  z-index: 1000;
 }
 
 .contact-text-div {
   margin-top: 1.5rem;
+  z-index: 1000;
 }
 
 .contact-margin-top {

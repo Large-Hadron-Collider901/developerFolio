@@ -84,6 +84,10 @@ input:checked + .slider::after {
   }
 }
 
+#checkbox {
+  opacity: 0%;
+}
+
 @media all and (max-width: 2560px) and (min-width: 1552px) {
   .slider::after {
     bottom: 12.5% !important;

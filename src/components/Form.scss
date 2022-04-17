@@ -1,4 +1,31 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+#contact.react-reveal.main {
+  position: relative;
+  top: 50px;
+  background-color: yellow;
+  margin-left: 9px;
+  border-radius: 0px;
+  width: 1310px;
+  border-end-end-radius: 21px;
+  border-start-end-radius: 21px;
+  height: 290px;
+}
+#page {
+ position: relative;
+ top: -430px;
+  background-image: url(https://i.ibb.co/vqGtKX2/experimental-pattern-21.png);
+background-size: 15%;
+  height: 500px;
+  width: 98.75%;
+  border-radius: 9px;
+  margin-left: 8px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+z-index: -1;
+margin-bottom: -400px;
+border: solid 3px blue;
+}
 #Form > *,
 ::before,
 ::after {
@@ -10,22 +37,65 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  z-index: 1000;
+}
+#name {
+  font-size: 45px;
+  font-family: 'Rum Raisin', sans-serif;
+  position: absolute;
+  right: -1px;
+  width: 785px;
+  border: solid 2px black;
+  z-index: 1000;
+}
+
+#form {
+  z-index: 1000;
+}
+#number {
+  font-size: 45px;
+  font-family: 'Rum Raisin', sans-serif;
+  position: absolute;
+  top: 60px;
+  width: 785px;
+  left: 6px;
+  border: solid 2px black;
+}
+
+#email {
+  font-size: 45px;
+  font-family: 'Rum Raisin', sans-serif;
+  border: solid 2px black;
+  position: absolute;
+  right: -1px;
+  top: 115px;
+  width: 785px;
+}
+
+#message {
+  border: solid 1px black;
+
 }
 
 textarea[name=message] {
 position: absolute;
-bottom:-240px;
+bottom:-300px;
 height: 100px;
-right: 198px;
-    width: 389px;
+right: 199px;
+    width: 395px;
+    font-size: 24px;
+    font-family: 'Rum Raisin', sans-serif;
 }
 form {
+
+
     position: absolute;
-    top: 3670px;
+    top: 3768px;
+    right: 350px;
   /* Using CSS Grid to lay out the elements in two-dimensions: */
   display: grid;
   /* specifying a 0.5em gutter/gap between adjacent elements: */
-  gap: 0.5em;
+  gap: 0em;
   /* declaring a number of named grid areas in order to lay out
      the child elements; the areas identified with a period (.)
      are 'empty' areas, whereas the areas named by strings are
@@ -39,9 +109,9 @@ form {
      size of the first and last of the columns. The central
      column is declared as being 0.5em in width: */
   grid-template-columns: 1fr 0.5em 1fr;
-  margin: 1em auto;
+
   width: 80%;
-  height: 50px;
+  height: 0px;
 
 }
 
@@ -66,26 +136,41 @@ input, textarea {
 }
 
 
-
+#button:hover {
+  background-color: hsl(351, 83%, 72%);
+  transition: 0.7s;
+ 
+}
 #button {
-    position: absolute;
-    top:170px;
-    right: -12px;
-  /* positioning the <button> element in the grid-area identified
-     by the name of 'submit': */
-  grid-area: submit;
-  width: 797px;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 60px 10px;
-  font-size:30px;
-
+  font-family: 'Rum Raisin', sans-serif;
+position: relative;
+top: 297px;
+width: 805px;
+height: 90px;
+padding-bottom: 60px;
+padding-top: 10px;
+margin-bottom: 60px;
+  font-size: 45px;
+  text-shadow: 3px 3px 3px #6e00bd;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: hsl(278, 89%, 24%);
+  border: solid darkgray 3px;
+  border-radius: 35px;
+  box-shadow: 0 9px rgb(43, 255, 153);
 }
 
+#button:active {  
+  background-color: hsl(351, 90%, 62%);
+  box-shadow: 0 5px #666;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
+}
   input {
   padding: 5px 5px 5px 5px;
 
     font-size: 30px;
-    height: 40px;
+    height: 60px;
     border: 1px solid grey;
   }

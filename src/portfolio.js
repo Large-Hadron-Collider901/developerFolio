@@ -14,10 +14,10 @@ const greeting = {
   username: "Large-Hadron-Collider901",
   title: "Hey there, I'm Skye",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with an ecclectic eye for aethsetic in web design and a passion for creating sleek, seamless, stylish user interfaces. "
+    "A passionate Full Stack Software Developer with an eclectic eye for aesthetic in web design and a passion for creating sleek, seamless, stylish user interfaces. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1KR9riupjP4IZE3D7_FWASHLJ81hu9E5pZgsnyA8oIJM/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -25,12 +25,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Large-Hadron-Collider901",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/skye-mccullough-901/",
+  gmail: "skyemc608@gmail.com",
+  medium: "https://medium.com/@LargeHadronCollider",
+  stackoverflow: "https://stackoverflow.com/users/18832447/skye-mccullough",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,6 +47,7 @@ const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,10 +62,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+  
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -80,32 +76,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true

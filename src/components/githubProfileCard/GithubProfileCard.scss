@@ -1,24 +1,36 @@
 @import "../../_globalColor";
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .profile-image {
+  position: relative;
+  right: 20px;
+  top: -40px;
   border-radius: 50%;
   border: 0.5rem solid $githubProfileCardBorder;
   margin-left: auto;
-  width: 100%;
-  max-width: 350px;
   height: auto;
   box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
+  width: 120%;
 }
 
 .profile-image:hover {
   box-shadow: none;
 }
-
+.row {
+  padding-top: 40px;
+}
 .prof-title {
+  margin-bottom: 50px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 3px 3px 3px rgb(97, 27, 154);
+  position: absolute;
+  top: 55px;
   margin: 0;
-  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 60px;
   font-weight: 400;
+
 }
 
 .location-div {
@@ -30,11 +42,14 @@
 }
 
 .row {
+  position: absolute;
+  top: 80px;
   display: flex;
 }
 
 .main-content-profile {
   flex: 80%;
+  z-index: 1000;
 }
 
 .image-content-profile {
@@ -42,20 +57,30 @@
   flex: 20%;
   max-width: 100%;
   height: auto;
+  
 }
+
 
 .bio-text {
   line-height: 30px;
   font-size: 22px;
+  z-index: 1000;
 }
 
 .desc-prof {
+  position: relative;
+  top: 20px;
+  padding-top: 40px;
+  padding-bottom: 50px;
   line-height: 45px;
   font-size: 19px;
+  z-index: 1000;   
 }
 
 .subTitle {
   color: $subTitle;
+ 
+  z-index: 1000;
 }
 
 @media (max-width: 768px) {
@@ -67,10 +92,12 @@
   .main-content-profile {
     text-align: center;
     order: 2;
+    z-index: 1000;
   }
 
   .bio-text {
     font-size: 16px;
+    z-index: 1000;
   }
 
   .image-content-profile {
@@ -82,13 +109,13 @@
   .desc-prof {
     line-height: 30px;
     font-size: 16px;
+    z-index: 1000;
+
   }
 
   .profile-image {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 250px;
     height: auto;
   }
 
@@ -98,8 +125,12 @@
   }
 
   .prof-title {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-size: 32px;
     text-align: center;
   }
+}
+
+#media {
+  padding-top: 50px;
 }

@@ -19,52 +19,60 @@ margin-bottom: 20px;
   border: solid 3px rgb(65, 38, 219);
   border-radius: 7px;
   border-radius: 7px;
-right: 390px;
-width: 330px;
+top: 50px;
+right: 30px;
+width: 450px;
   height: 570px;
 
 
 }
+.lotus-div {
+  position: relative;
+ right: 810px;
+border: solid 4px pink;
+  top:-20px;
 
+}
 #lotus-1 {
   position: absolute;
-  top: 25px;
+  top: 45px;
   left: 710px;
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   filter: drop-shadow(0px 6px 3px rgb(31, 26, 135));
 }
 
 
 #lotus-2 {
   position: absolute;
-  top: 170px;
+  top: 190px;
   left: 710px;
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   filter: drop-shadow(0px 6px 3px rgb(31, 26, 135));
 }
 
 #lotus-3 {
   position: absolute;
-  top: 320px;
+  top: 340px;
   left: 710px;
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   filter: drop-shadow(0px 6px 3px rgb(31, 26, 135));
 }
 
 #lotus-4 {
   position: absolute;
-  top: 475px;
+  top: 495px;
   left: 710px;
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   filter: drop-shadow(0px 6px 3px rgb(31, 26, 135));
 }
 .crystal {
   position: absolute;
-  right: 27px;
+  top: 50px;
+  right: 507px;
   width: 350px;
   height: 570px;
   border-radius: 7px;
@@ -87,15 +95,18 @@ filter: drop-shadow(0px 6px 3px rgb(31, 26, 135));
 }
 
 
-
+.react-reveal.skills-text-div {
+  position: absolute;
+  top: 730px;
+}
 #sun {
-top: 75px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+top: 100px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 position: absolute;
-right: 410px;
-width: 320px;
-  height: 460px;
+right: 37px;
+width: 420px;
+  height: 480px;
  border-radius: 7px;
- filter: drop-shadow(4px 4px 3px rgb(55, 9, 105));
+ filter: drop-shadow(1px 2px 5px rgb(255, 30, 187));
 padding: 10px 10px 10px 2px;
 z-index: 2;
 }
@@ -135,11 +146,13 @@ z-index: 2;
 
 .subTitle {
   color: $subTitle !important;
+
 }
+
 
 .greeting-main {
   display: flex;
- 
+
 }
 
 .greeting-main > * {
@@ -147,8 +160,10 @@ z-index: 2;
 
 }
 .button-greeting-div {
-  display: flex;
-  margin-top: 20px;
+  display: flex;  
+  position: relative;
+  top: 20px;
+
 }
 
 .greeting-text {
@@ -183,11 +198,20 @@ padding-top: 30px;
 
 
 #border {
+  background-color: white;
+  position: relative;
+  top: 20px;
+  padding-bottom:107px;
+  padding-left: 45px;
+  margin-bottom:20px;
 width: 77%;
 height: 439px;
-  padding:47px 40px 80px 30px;
+padding-top: 20px;
+padding-right: 40px
+;
   border-radius: 7px;
   border: solid 3px rgb(64, 0, 255);
+
 }
 @keyframes wave {
   0% {
@@ -222,6 +246,7 @@ height: 439px;
   }
   .greeting-text-p {
     font-size: 20px;
+    padding-bottom: 100px;
   }
 }
 @media (max-width: 768px) {
@@ -234,11 +259,13 @@ height: 439px;
     text-align: center;
     color: black;
     
+    
   }
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
     text-align: center;
+    
   }
   .greeting-main {
     display: block;

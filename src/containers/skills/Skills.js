@@ -25,7 +25,8 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-               src="https://i.ibb.co/jrXJ5Pv/computer.png"
+                src={require("../../assets/images/gummy-macbook.svg")}
+                id="gummyLaptop"
               ></img>
             )}
           </div>
